@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>length convertor
+    </title></head>
+<body>
+    <div>enter the value for length</div>
+    <div><input id="box" type="number" placeholder="length value"></div>
+    <div><button type="submit" onclick="vishal()">result</button></div>
+    <div id="result"></div>
+    <script>
+        function vishal()
+       {
+         let c=Number(document.getElementById("box").value)
+        let process=c/10
+        
+        let answer=document.getElementById("result")
+        answer.innerHTML=process
+    }
+    </script>
+    
+</body>
+</html>
